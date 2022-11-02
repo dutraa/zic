@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  zic-gui:
+    image: zapps-registry.zerto.com/zic/stable/incloud-gui:${TAG}
+  zic:
+    image: zapps-registry.zerto.com/zic/stable/incloud-aws:${TAG}
+  zic-support:
+    image: zapps-registry.zerto.com/zic/stable/incloud-support:${TAG}
+  zic-za-reporter:
+    image: zapps-registry.zerto.com/zic/stable/incloud-za-reporter:${TAG}

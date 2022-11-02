@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  zic-gui:
+    image: localhost:5000/incloud-gui:${TAG}
+  zic:
+    image: localhost:5000/incloud-aws:${TAG}
+  zic-support:
+    image: localhost:5000/incloud-support:${TAG}
+  zic-za-reporter:
+    image: localhost:5000/incloud-za-reporter:${TAG}
